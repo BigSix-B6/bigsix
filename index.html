@@ -1,17 +1,41 @@
 <!doctype html>
-<html lang="es">
+<html lang="es-AR">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#e11d2e">
-  <meta name="description" content="Big Six en Bahía Blanca: hamburguesas, combos y tres lugares para encontrarnos.">
-  <title>Big Six — Hambre de algo grande</title>
+  <meta name="description" content="Conocé el menú de Big Six en Bahía Blanca: hamburguesas, papas y algo dulce. Encontrá sus tres locales y elegí tu próximo antojo.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://bigsix-b6.github.io/bigsix/">
+  <title>Big Six | Hamburguesas y menú en Bahía Blanca</title>
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_AR">
+  <meta property="og:site_name" content="Big Six">
+  <meta property="og:title" content="Big Six | Hamburguesas y menú en Bahía Blanca">
+  <meta property="og:description" content="Hamburguesas, papas y algo dulce en Bahía Blanca. Explorá la carta y encontrá los tres locales.">
+  <meta property="og:url" content="https://bigsix-b6.github.io/bigsix/">
+  <meta property="og:image" content="https://bigsix-b6.github.io/bigsix/assets/burger-cheesy.jpg">
+  <meta property="og:image:alt" content="Hamburguesa Big Six con cheddar">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Big Six | Hamburguesas y menú en Bahía Blanca">
+  <meta name="twitter:description" content="Hamburguesas, papas y algo dulce en Bahía Blanca. Explorá la carta y encontrá los tres locales.">
+  <meta name="twitter:image" content="https://bigsix-b6.github.io/bigsix/assets/burger-cheesy.jpg">
   <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon.png">
   <link rel="apple-touch-icon" href="assets/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Big Six",
+    "url": "https://bigsix-b6.github.io/bigsix/",
+    "description": "Menú de Big Six en Bahía Blanca: hamburguesas, papas, opciones dulces y tres locales.",
+    "inLanguage": "es-AR"
+  }
+  </script>
   <script src="main.js" defer></script>
 </head>
 <body>
@@ -32,12 +56,12 @@
         <div class="hero-copy reveal">
           <p class="eyebrow"><span class="eyebrow-line"></span> De Bahía. Para Bahía.</p>
           <h1>Hambre<br>de algo <em>grande.</em></h1>
-          <p class="hero-intro">La burger que estabas pensando. Las papas que ya te imaginaste. Y un lugar para compartirlo.</p>
+          <p class="hero-intro">Hamburguesas en Bahía Blanca, papas para compartir y algo dulce para cerrar. La burger que estabas pensando y un lugar para disfrutarla.</p>
           <div class="hero-actions"><a class="button button-yellow" href="#carta">Descubrir la carta <span>↘</span></a><a class="play-link" href="#locales"><span class="play-icon">↗</span> Estamos en tres puntos de Bahía</a></div>
           <div class="hero-footnote"><span>01</span> SABOR QUE SE QUEDA <b>✳</b> SIN VUELTAS</div>
         </div>
         <div class="hero-visual reveal reveal-late">
-          <div class="hero-photo-wrap"><img class="hero-photo" src="assets/sandwich.jpg" alt="Sándwich Big Six con huevo y queso" fetchpriority="high"><div class="photo-shine"></div></div>
+          <div class="hero-photo-wrap"><img class="hero-photo" src="assets/sandwich.jpg" alt="Sándwich Big Six con huevo y queso" fetchpriority="high" decoding="async"><div class="photo-shine"></div></div>
           <div class="hero-sticker"><span>HEY!</span><b>¿Ya<br>comiste?</b></div>
           <div class="hero-caption"><span>BIG FLAVOR</span><span>✳</span><span>BAHÍA BLANCA</span></div>
           <div class="hero-number">B6</div>
@@ -50,7 +74,7 @@
 
     <section class="menu-section section-pad" id="carta">
       <div class="container">
-        <div class="section-top reveal"><div><p class="eyebrow dark-eyebrow"><span class="eyebrow-line"></span> No te quedes con las ganas</p><h2>La carta<br><em>Big Six.</em></h2></div><p class="section-lead">Clásicos con actitud, combos para el hambre grande y opciones para cambiar de plan. Elegí por dónde arrancar.</p></div>
+        <div class="section-top reveal"><div><p class="eyebrow dark-eyebrow"><span class="eyebrow-line"></span> No te quedes con las ganas</p><h2>La carta<br><em>Big Six.</em></h2></div><p class="section-lead">El menú de Big Six en Bahía Blanca reúne hamburguesas, papas con cheddar, combos y opciones dulces. Elegí por dónde arrancar.</p></div>
         <div class="filter-row reveal" role="group" aria-label="Filtrar carta">
           <button class="filter-chip is-active" data-filter="all" aria-pressed="true">Todo <span>06</span></button><button class="filter-chip" data-filter="burgers" aria-pressed="false">Burgers <span>02</span></button><button class="filter-chip" data-filter="combos" aria-pressed="false">Combos <span>02</span></button><button class="filter-chip" data-filter="otros" aria-pressed="false">Otros antojos <span>02</span></button>
         </div>

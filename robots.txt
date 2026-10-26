@@ -1,0 +1,3 @@
+# GitHub Pages project site: public content; no crawl blocks are needed.
+# Note: standard robots.txt rules are read from the origin root, outside /bigsix/.
+# This repository cannot publish https://bigsix-b6.github.io/robots.txt.
